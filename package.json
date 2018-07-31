@@ -1,23 +1,27 @@
 {
   "name": "design-pattern",
   "version": "1.0.0",
-  "description": "",
+  "description": "design-pattern javascript",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config ./webpack.dev.config.js --mode development"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jiaoguanwen/design-pattern.git"
   },
-  "author": "jiaoguanwen",
+  "author": "jiaoguanwen@163.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jiaoguanwen/design-pattern/issues"
   },
   "homepage": "https://github.com/jiaoguanwen/design-pattern#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.16.3",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   }
 }
